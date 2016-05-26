@@ -9,7 +9,6 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import xyz.stg.tcp.initializer.GameChannelInitializer;
-import xyz.stg.tcp.initializer.HttpChannelInitializer;
 
 /**
  * Created by tiangao on 2016/5/21.
@@ -54,7 +53,7 @@ public class TGServer {
 
 
     public static void main(String[] args) {
-        new TGServer(8901).start();
+        new TGServer(9900).start();
     }
 
 }
