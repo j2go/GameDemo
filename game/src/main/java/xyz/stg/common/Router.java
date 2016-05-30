@@ -1,5 +1,6 @@
 package xyz.stg.common;
 
+import xyz.stg.chat.ChatAction;
 import xyz.stg.player.action.PlayerAction;
 import xyz.stg.tcp.base.ActionManager;
 
@@ -9,5 +10,6 @@ import xyz.stg.tcp.base.ActionManager;
 public class Router {
     public void init() {
         ActionManager.ins.register("player@login", PlayerAction.class);
+        ActionManager.ins.register("chat@send", ChatAction.class);
     }
 }

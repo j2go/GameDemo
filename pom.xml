@@ -23,6 +23,7 @@
     <modules>
         <module>tgtcp</module>
         <module>tgutil</module>
+        <module>game</module>
     </modules>
 
     <dependencies>
@@ -41,6 +42,11 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.12</version>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.6</version>
+        </dependency>
         <!-- log lib -->
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -56,11 +62,6 @@
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
             <version>1.1.7</version>
-        </dependency>
-        <dependency>
-            <groupId>xyz.stg</groupId>
-            <artifactId>tcp-framework</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
         <!-- log lib end-->
     </dependencies>
