@@ -17,7 +17,7 @@ import java.security.SecureRandom;
  4.PBEWithSHA1AndRC2_40/40 to 1024/128
  工作模式：CBC
  填充方式：PKCS5Padding
- 
+
  * Created by shitiangao on 16/6/1.
  */
 public class PBE {

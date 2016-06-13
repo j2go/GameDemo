@@ -24,6 +24,7 @@
         <module>tgtcp</module>
         <module>tgutil</module>
         <module>game</module>
+        <module>tgdao</module>
     </modules>
 
     <dependencies>
